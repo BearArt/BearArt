@@ -1,0 +1,322 @@
+
+
+header b{
+	font-size: 50px;
+	color: #b78785;
+	font-family: arial;
+}
+
+
+nav#uno{
+	position: absolute;
+	top: 3%;
+	left: 5%;
+	border-color: #000000;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-radius: 2px;
+	padding: 3px;
+}
+.carrito {
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	top: -14px;
+	left: 110px;	
+}
+
+a#enlace{
+	text-decoration: none;
+	color: #ffffff;
+	position: absolute;
+	top: 20px;
+	left: 88%;
+	font-size: 20px;	
+}
+
+
+nav#uno a{
+	color: #000000;
+	text-decoration: none;
+	font-family: verdana;
+}
+
+img{
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+nav#cuatro a{
+	color: #000000;
+	text-decoration: none;
+	margin: 20px;
+	font-size: 20px;
+	font-family: verdana;
+}
+
+nav#cuatro{
+	margin: 10px;
+	top: ;
+	text-align: right;
+	border-color: #B0091D;
+	border-style: solid;
+	padding: 10px;
+	background: #ffffff;
+}
+
+nav#cuatro a:hover{
+	color: #33CC99 ;
+}
+nav#seis{
+	margin: 10px;
+	margin-top: -10px;
+	padding-top: -10px;
+	text-align: right;
+	border-color: #B0091D;
+	border-style: solid;
+	padding: 12px;
+	background: #B0091D;
+	font-size: 40px;
+}
+nav#seis a{
+	color: #ffffff;
+	text-decoration: none;
+	margin: 23px;
+	font-size: 23px;
+	font-family: arial;
+}
+nav#seis a:hover{
+	color: #6DE046;
+}
+.logo{
+	color: #000;
+	font-size: 60px;
+	line-height: 150px;
+	float: left;
+}
+
+article{
+	margin: 10px;
+	width: 50%;
+	height: 50%;
+}
+article h2{
+	margin:20px;
+	color: #000000;
+	font-family: arial;
+}
+article p{
+	margin:40px;
+	color:#000000;
+	font-family: arial;
+}
+section {
+	text-align: justify;
+	line-height: 30px;
+	padding-top: -40px;
+	margin-top: 38px;
+	font-family: arial;
+	border-width: 5px 5px 5px 5px;
+	border-style: solid;
+	border-color:#ff7578;
+	border-radius: 10px;
+	display: flex;
+}
+
+.lateral{
+	height: 45%;
+	width: 50%;
+}
+
+footer{
+	margin-top: 10px;
+	background: #B0091D;
+	padding: 10px;
+	font-family: arial;	text-align: center;
+	color: #ffffff;
+}
+.product img{
+text-align: center;
+width: 25px;
+}
+.product h1{
+	font-size: 1.1em;
+	margin-top:5px;
+	margin-bottom: 5px;
+	
+}
+.card {
+	border-radius: 4px;
+	background-color: white;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.card img {
+	
+	margin: auto;
+}
+.tabla{
+	width: 100%;
+	margin:auto;
+	text-align: center;
+	padding-top: 50px;
+}
+.tablax4{
+	float: none;
+	width: 25%;
+	margin-top: 20px;	
+}
+.tablaxd{
+	float: left;
+	width: 25%;
+	margin-top: 20px;
+}
+.caja-precio{
+	border: 1px solid #ff7578;
+	background: #30353c;
+}
+.icono-precio {
+	
+	color: #85c34a;
+	padding-top: 30px;
+	font-size: 3em;
+	padding-bottom: 10px;
+}
+.caja-precio h4{
+	color:#fff;
+}
+
+.precio-1{
+	color: #fff;
+	font-size: 50px;
+	font-weight: bold;
+}
+.dolar{
+	font-size: 20px;
+	vertical-align: super;
+}
+.mes{
+	font-size: 10px;
+	color:#999;
+	vertical-align: text-bottom;
+}
+.lista-precios{
+	list-style: none;
+	padding: 20px 0;
+	color:#fff;
+	padding-bottom: 50px;
+}
+.lista-espacios{
+	padding:0.25em;
+	font-size: 15px;
+}
+.boton-contratar{
+	margin-bottom: 25px;
+}
+.contratar-a{
+	background: #fff;
+	text-decoration: none;
+	color:#000;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 10px 70px; 
+	letter-spacing: 1px;
+	width: 90%;
+}
+.contratar-a:hover{
+	background: #777;
+}
+
+.destacado h4{
+	color: #fff;
+	font-size: 15px;
+}
+.destacado .icono-precio{
+	font-size: 3em;
+}
+.destacado .contratar-a{
+	background:#fff;
+}
+.destacado .contratar-a:hover{
+	background:#777;
+}
+.fa-star{
+	color:#ff7578;
+}
+
+
+@media screen and (max-width: 1000px){
+
+	.tabla, .tablax4, .tablaxd{
+		display: block;
+		width: 100%;
+	}
+	header b {
+		font-size: 18px;
+	}
+
+	section{
+		display: inline-block;
+	}
+
+	article, .lateral, .lateral1{
+		width: 100%;
+		height: 100%;
+	}
+}
+
+@media screen and (max-width: 600px){
+	nav#cuatro a{
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 1000px){
+	header b {
+		font-size: 18px;
+	}
+
+	section{
+		display: inline-block;
+	}
+
+	article, .lateral, .lateral1{
+		width: 100%;
+		height: 100%;
+	}
+}
+
+@media screen and (max-width: 600px){
+	nav#cuatro a{
+		font-size: 15px;
+	}
+
+	.carrito {
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	top: 7px;
+	left: 70%;	
+}
+
+a#enlace{
+	text-decoration: none;
+	color: #ffffff;
+	position: absolute;
+	top: 20px;
+	left: 88%;
+	font-size: 20px;
+}
+nav#uno{
+	position: absolute;
+	top: 3%;
+	left: 5%;
+	border-color: #ffffff;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-radius: 2px;
+	padding: 3px;
+}
+
+}
+

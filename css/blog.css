@@ -1,0 +1,29 @@
+#blog .contenedor{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+
+#blog article {
+	margin: 15px;
+
+}
+#blog img {
+	width: 200px;
+	max-width: 280px;
+}
+#blog h3 {
+	display: flex;
+	width: 450px;
+	justify-content: center;
+	flex-wrap: wrap;
+	text-decoration: center;
+	color: #000;
+	margin-left: 450px;
+	font-size: 25px;
+	position: relative;
+    padding: 30px;
+
+
+}
